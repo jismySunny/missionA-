@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>mission A+</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="d-flex justify-content-between align-items-center py-4">
+                <div class="logo_one">
+                   <a href="#"><img src="./assets/image/mission-a-logo 1.svg" alt=""></a>
+                </div>
+                <div class="logo_one">
+                    <p class="associated">Associated with</p>
+                    <div class="wca_logo">
+                        <a href="#" class="logo">
+                            <img src="./assets/image/wca-logo.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- form section -->
+    <section>
+        <div class="container mt-5">
+            <h2 class="text-center mb-4 title">Coding Master Registration</h2>
+            <form class="form_content ">
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter name"  required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="phone" class="form-label">Phone</label>
+                        <input type="tel" class="form-control" id="phone" pattern="[0-9]{10}" placeholder="Enter phone number" required>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email id" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="district" class="form-label">District</label>
+                        <select class="form-select" id="district" required>
+                            <option value="" selected disabled>Select</option>
+                            <option value="district1">District 1</option>
+                            <option value="district2">District 2</option>
+                            <option value="district3">District 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-12">
+                        <label for="school" class="form-label">School</label>
+                        <select class="form-select" id="school" required>
+                            <option value="" selected disabled>Select</option>
+                            <option value="school1">School 1</option>
+                            <option value="school2">School 2</option>
+                            <option value="school3">School 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="parentName" class="form-label">Parent's Name</label>
+                        <input type="text" class="form-control" id="parentName" placeholder="Enter name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="parentJob" class="form-label">Parent's Job</label>
+                        <select class="form-select" id="parentJob" required>
+                            <option value="" selected disabled>Select</option>
+                            <option value="job1">Job 1</option>
+                            <option value="job2">Job 2</option>
+                            <option value="job3">Job 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row mb-3">
+                    <div class="col-md-6">
+                        <label for="parentName" class="form-label">Parent's Name</label>
+                        <input type="text" class="form-control" id="parentName" placeholder="Enter name" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="parentJob" class="form-label">Parent's Job</label>
+                        <select class="form-select" id="parentJob" required>
+                            <option value="" selected disabled>Select</option>
+                            <option value="job1">Job 1</option>
+                            <option value="job2">Job 2</option>
+                            <option value="job3">Job 3</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end mt-15 gap-2 ">
+                    <div class="register_btn">
+                        <button type="submit" class="btn">Register</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- video section -->
+    <section class="mt-5 mb-4 video_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 d-flex align-items-center">
+                    <h2 class="video_title">Lorem ipsum
+                        Dolor sit amet</h2>
+                </div>
+                <div class="col-md-6">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/your-video-id" title="YouTube video" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!-- FAQ section -->
+    <section class="faq_section mt-5 mb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 d-flex align-items-center">
+                    <h2 class="faq_title">Any questions?<br>
+                       <span class="title_two"> We got you.</span></h2>
+                </div>
+                <div class="col-md-8">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    How does it work?
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur. Malesuada nec turpis nullam aliquet quis nulla. In ultrices arcu vel duis feugiat feugiat. Eros urna ornare et bibendum. Tempus urna ullamcorper in ultrices eget
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How does it work?
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur. Malesuada nec turpis nullam aliquet quis nulla. In ultrices arcu vel duis feugiat feugiat. Eros urna ornare et bibendum. Tempus urna ullamcorper in ultrices eget                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How does it work?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur. Malesuada nec turpis nullam aliquet quis nulla. In ultrices arcu vel duis feugiat feugiat. Eros urna ornare et bibendum. Tempus urna ullamcorper in ultrices eget                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    How does it work?
+                                </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur. Malesuada nec turpis nullam aliquet quis nulla. In ultrices arcu vel duis feugiat feugiat. Eros urna ornare et bibendum. Tempus urna ullamcorper in ultrices eget                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFive">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                    How does it work?
+                                </button>
+                            </h2>
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                                <div class="accordion-body">
+                                    Lorem ipsum dolor sit amet consectetur. Malesuada nec turpis nullam aliquet quis nulla. In ultrices arcu vel duis feugiat feugiat. Eros urna ornare et bibendum. Tempus urna ullamcorper in ultrices eget                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- copy section -->
+    <section class="mt-5 copy_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 d-flex align-items-center justify-content-center">
+                    <h5 class="copy">Copyright © 2024 Woodenclouds. All right reserved</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>
